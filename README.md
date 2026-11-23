@@ -25,6 +25,12 @@ OAuth uses the path to choose the mode. API keys (`sk_live_` / `sk_test_`) are o
 
 MCP guide: [https://cfdi.express/docs/api/mcp](https://cfdi.express/docs/api/mcp)
 
+## Prices and preview
+
+- Line item `unitPrice` includes transferred IVA/IEPS by default (`pricesIncludeTax: true`). Send `pricesIncludeTax: false` when the amount is before tax.
+- Preview before stamping. Some MCP clients can show an interactive preview (for example a card with «Autorizar y timbrar»). Clients without interactive views, such as Grok Bot, get a text summary instead; the agent must wait for an explicit confirmation in chat, then call `create_invoice` (or the matching `create_*`) with the same `idempotency_key` from the preview.
+
+
 ## Package layout
 
 ```text

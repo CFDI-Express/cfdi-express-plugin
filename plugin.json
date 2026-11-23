@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "cfdi-express",
-  "version": "1.0.0",
-  "description": "CFDI Express helps authorized users issue and manage Mexican CFDI 4.0 invoices, credit notes, payment complements, payroll receipts (nómina) and CFDIs de retenciones for digital platforms, search SAT catalogs, and retrieve document status and files from their CFDI Express account.",
+  "version": "1.0.1",
+  "description": "CFDI Express helps authorized users issue and manage Mexican CFDI 4.0 invoices, credit notes, payment complements, payroll receipts (n\u00f3mina) and CFDIs de retenciones for digital platforms, search SAT catalogs, and retrieve document status and files from their CFDI Express account.",
   "author": {
     "name": "CFDI Express",
     "email": "rafa@acromati.co",
