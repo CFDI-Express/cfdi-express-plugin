@@ -1,0 +1,17 @@
+{
+  "name": "cfdi-express",
+  "owner": {
+    "name": "CFDI Express",
+    "email": "rafa@acromati.co"
+  },
+  "metadata": {
+    "description": "CFDI Express plugin for issuing and managing Mexican CFDI 4.0 invoices"
+  },
+  "plugins": [
+    {
+      "name": "cfdi-express",
+      "source": "./",
+      "description": "Issue and manage Mexican CFDI 4.0 invoices, credit notes, payment complements, payroll, and retenciones from your CFDI Express account."
+    }
+  ]
+}
